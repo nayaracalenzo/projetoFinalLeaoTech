@@ -1,0 +1,297 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+body {
+  background-color: #011759;
+}
+
+.retanguloazul {
+  height: 28px;
+}
+
+.retangulovermelho {
+  height: 28px;
+  background-color: #CC1235;
+}
+
+
+
+header {
+  padding: 15px 72px 15px 49px ;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: 500;
+}
+
+ul.header {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 36px;
+}
+li>a {
+  color: #000000;
+}
+
+ul.header>li:hover {
+  color: #2F2655;
+  text-underline-offset: 5px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  font-weight: 700;
+  
+}
+
+.banner {
+  background-image: url(./img/Bg-topo\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 501px;
+  display: block;
+  text-align: center;
+}
+p {
+  color: #fff;
+}
+
+.banner>img {
+  width: 30%;
+  margin-top: 80px;
+  margin-bottom: 46px;
+}
+
+.quemsomos {
+  padding: 30px 80px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(./img/frame.png);
+  background-color: #C6C6D8;
+  & div{
+    & img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+
+h1 {
+  color: #CC1235;
+  font-size: 64px;
+  font-weight: 200;
+  font-family: "Koulen", serif;
+}
+
+.text>p {
+  padding-bottom: 20px;
+  color: #36345A;
+  max-width: 56ch;
+  font-weight: 500;
+  line-height: 1.5em
+}
+
+span {
+  font-weight: 800;
+}
+
+.button {
+  margin-top: 46px;
+  border-radius: 6px;
+  padding: 15px 26px;
+  background-color: #2F2655;
+  color: #fff;
+}
+
+.eventos {
+    text-align: center;
+    background-image: url(./img/bgTvLeao_Home.png);
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.eventos>h1 {
+    color: #fff;
+    padding: 50px 0 150px 0;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+  align-items: center;
+  justify-items: center;
+}
+.card {
+  display: flex;
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 6px;
+  width: 70%;
+  background-color: #0E1116; 
+}
+
+details {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+summary::after {
+  content:url(./img/postagem-no-instagram\ 1.png);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+details[open] summary::after {
+  content: url(./img/botao-fechar\(2\)\ 1.png);
+  
+}
+
+details p {
+  margin-top: 10px;
+  text-align: justify; 
+  width: 95%;
+}
+
+#imagens {
+  background-image: url(./img/bgTvLeao_Home2.png);
+  text-align: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 85px;
+}
+
+.imgsection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 27px;
+}
+
+#imagens>h1 {
+    color: #fff;
+    padding: 170px 0 30px 0;
+}
+
+
+.projetos {
+  background-color: #D9D9D9;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 63px;
+  /* display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 63px; */
+  & img {
+    border-radius: 6px;
+  }
+}
+
+.light {
+  background-color: #fff;
+  text-align: center;
+  & p {
+    color: #110F37;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0 0 42px 0 ;
+  }
+}
+
+.title {
+  display: flex;
+  justify-content:center;
+  padding-top: 22px;
+  & img {
+    height: 95px;
+  }
+}
+
+#footer {
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imgFooter {
+    display: flex;
+}
+
+.categoriaFooter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.listaFooter {
+    & h1 {
+        color: #fff;
+        font-size: 24px;
+        
+    }
+    & a {
+        color: #CC1235;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 34px;
+        
+    }
+    & a:hover{
+            transition-duration: 300ms;
+            color: #fff;
+        }
+
+}
+
+.line {
+    height: 1px;
+    background-color: #fff;
+    width: 25ch;
+}
+
+.containerFooter>p {
+    margin: 34px 0 21px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 30px;
+}
+
+
+@media screen and (width <= 1125px) {
+    header {
+        justify-content: center;
+    }
+}
