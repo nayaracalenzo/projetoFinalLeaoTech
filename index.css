@@ -167,7 +167,7 @@ summary::after {
 }
 
 details[open] summary::after {
-  content: url(./img/botao-fechar\(2\)\ 1.png);
+  content: url(./img/botao-fechar.png);
   
 }
 
